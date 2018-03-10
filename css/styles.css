@@ -1,7 +1,47 @@
-.selected {
-  color:red;
+.profile {
+  height: 300px;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 10px;
+  background-color: grey;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
 }
 
-.nav {
-  color:red;
+.skills {
+  height: 150px;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 10px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.art {
+  height: 400px;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 10px;
+  background-color: pink;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.contact {
+  height: 150px;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 10px;
+  background-color: blue;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+@media only screen and (max-width : 830px) {
+
 }
