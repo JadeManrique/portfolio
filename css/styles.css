@@ -1,4 +1,4 @@
-.profile {
+.profileContainer {
   height: 300px;
   max-width: 100%;
   overflow-x: hidden;
@@ -9,7 +9,7 @@
   border-color: red;
 }
 
-.skills {
+.skillsContainer {
   height: 150px;
   max-width: 100%;
   overflow-x: hidden;
@@ -20,7 +20,7 @@
   border-color: red;
 }
 
-.art {
+.artContainer {
   height: 400px;
   max-width: 100%;
   overflow-x: hidden;
@@ -31,7 +31,7 @@
   border-color: red;
 }
 
-.contact {
+.contactContainer {
   height: 150px;
   max-width: 100%;
   overflow-x: hidden;
