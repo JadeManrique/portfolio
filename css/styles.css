@@ -9,6 +9,10 @@
   border-color: red;
 }
 
+.circleMask {
+  border-radius: 50%;
+}
+
 .skillsContainer {
   height: 150px;
   max-width: 100%;
