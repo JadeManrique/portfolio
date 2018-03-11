@@ -1,62 +1,62 @@
+body {
+  background-color: #5C1100;
+}
+
 .profileContainer {
   height: 300px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 10px;
-  background-color: grey;
-  border: 2px;
-  border-style: solid;
-  border-color: red;
+  margin: 15px;
+  background-color: #8F1B00;
+  border-radius: 15px;
 }
 
 .portrait {
   height: auto;
   width: 200px;
   border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border-width: thick;
+  border-color: white;
+  border-style: outset;
 }
 
 .skillsContainer {
   height: 150px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 10px;
-  background-color: black;
-  border: 2px;
-  border-style: solid;
-  border-color: red;
+  margin: 15px;
+  background-color: #8F1B00;
+  border-radius: 15px;
 }
 
 .projectsContainer {
   height: 400px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 10px;
-  background-color: pink;
-  border: 2px;
-  border-style: solid;
-  border-color: red;
+  margin: 15px;
+  background-color: #8F1B00;
+  border-radius: 15px;
 }
 
 .artContainer {
   height: 400px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 10px;
-  background-color: pink;
-  border: 2px;
-  border-style: solid;
-  border-color: red;
+  margin: 15px;
+  background-color: #8F1B00;
+  border-radius: 15px;
 }
 
 .contactContainer {
   height: 150px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 10px;
-  background-color: blue;
-  border: 2px;
-  border-style: solid;
-  border-color: red;
+  margin: 15px;
+  background-color: #8F1B00;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width : 830px) {
