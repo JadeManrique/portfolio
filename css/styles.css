@@ -95,8 +95,17 @@ ul li {
   padding-top: 30px;
 }
 
+.specialties ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.specialties ul li {
+  margin: auto;
+  width: 100%;
+}
+
 .specialties img {
-  display: inline-block;
   margin: 20px;
   height: 100px;
   width: auto;
