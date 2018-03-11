@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Roboto+Condensed');
+
 body {
   background-color: #5C1100;
 }
@@ -54,11 +56,27 @@ body {
   height: 150px;
   max-width: 100%;
   overflow-x: hidden;
-  margin: 15px;
+  margin: 0;
   background-color: #8F1B00;
-  border-radius: 15px;
 }
 
 @media only screen and (max-width : 830px) {
+
+  .profileContainer {
+    height: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 15px;
+    background-color: #8F1B00;
+    border-radius: 15px;
+  }
+
+  #quoteGen {
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
 
 }
