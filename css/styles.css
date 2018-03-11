@@ -5,7 +5,7 @@ body {
 }
 
 .profileContainer {
-  height: 300px;
+  height: auto;
   max-width: 100%;
   overflow-x: hidden;
   margin: 15px;
@@ -13,16 +13,33 @@ body {
   border-radius: 15px;
 }
 
+.nameLogo {
+  height: auto;
+  width: 50%;
+  float: right;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+}
+
 .portrait {
   height: auto;
-  width: 200px;
+  width: 25%;
   border-radius: 50%;
-  display: block;
-  margin: 10px auto;
+  display: inline-block;
+  margin: 20px 10px 10px 110px;
   text-align: center;
   border-width: thick;
   border-color: white;
   border-style: outset;
+}
+
+#quoteGen {
+  text-align: center;
+  color: white;
+  margin: 15px;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .skillsContainer {
@@ -71,12 +88,25 @@ body {
     border-radius: 15px;
   }
 
-  #quoteGen {
+  .nameLogo {
+    height: auto;
+    width: 350px;
+    float: none;
+    display: block;
+    margin: 10px auto;
     text-align: center;
-    color: white;
-    margin: 15px;
-    font-style: italic;
-    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .portrait {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border-width: thick;
+    border-color: white;
+    border-style: outset;
   }
 
 }
