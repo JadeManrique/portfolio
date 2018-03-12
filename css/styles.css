@@ -16,6 +16,7 @@ h1 {
 
 p {
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 ul li {
@@ -23,6 +24,14 @@ ul li {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 15px;
   font-size: 20px;
+}
+
+img {
+  margin: 15px;
+}
+
+.right {
+  float: right;
 }
 
 /* Profile Container */
@@ -113,12 +122,19 @@ ul li {
 
 /* Projects Container */
 .projectsContainer {
-  height: 400px;
+  height: auto;
   max-width: 100%;
   overflow-x: hidden;
   margin: 15px;
   background-color: #8F1B00;
   border-radius: 15px;
+}
+
+.placeholder {
+  display: inline-block;
+  height: auto;
+  width: 430px;
+  margin: 15px;
 }
 
 /* Contact Container */
@@ -184,6 +200,41 @@ ul li {
     margin: 20px;
     height: 70px;
     width: auto;
+  }
+
+}
+
+@media only screen and (max-width : 965px) {
+
+  .projectsContainer {
+    height: 400px;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 15px;
+    background-color: #8F1B00;
+    border-radius: 15px;
+  }
+
+  .placeholder {
+    display: inline-block;
+    text-align:center;
+    height: auto;
+    width: 25%;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  .placeholder img {
+    height: auto;
+    width: 49%;
+  }
+
+  .placeholder p {
+    display: none;
+  }
+
+  .right {
+    float: none;
   }
 
 }
