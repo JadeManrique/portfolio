@@ -203,38 +203,3 @@ img {
   }
 
 }
-
-@media only screen and (max-width : 965px) {
-
-  .projectsContainer {
-    height: 400px;
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 15px;
-    background-color: #8F1B00;
-    border-radius: 15px;
-  }
-
-  .placeholder {
-    display: inline-block;
-    text-align:center;
-    height: auto;
-    width: 25%;
-    margin: 0px;
-    overflow: hidden;
-  }
-
-  .placeholder img {
-    height: auto;
-    width: 49%;
-  }
-
-  .placeholder p {
-    display: none;
-  }
-
-  .right {
-    float: none;
-  }
-
-}
