@@ -146,6 +146,11 @@ img {
   background-color: #8F1B00;
 }
 
+.contact {
+  text-align: center;
+  padding-top: 25px;
+}
+
 @media only screen and (max-width : 830px) {
 
 /* Profile Container */
