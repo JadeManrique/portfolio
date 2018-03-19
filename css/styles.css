@@ -31,7 +31,11 @@ img {
 }
 
 .right {
-  float: right;
+  text-align: right;
+}
+
+.center {
+  text-align:
 }
 
 a:hover {
@@ -53,7 +57,7 @@ a:hover {
   width: 50%;
   float: right;
   display: inline-block;
-  margin: 20px 50px 10px 10px;
+  margin: 20px 60px 10px 10px;
   text-align: center;
 }
 
@@ -62,7 +66,7 @@ a:hover {
   width: 25%;
   border-radius: 50%;
   display: inline-block;
-  margin: 60px 10px 10px 100px;
+  margin: 60px 10px 10px 70px;
   text-align: center;
   border-width: thick;
   border-color: white;
@@ -101,24 +105,24 @@ a:hover {
   list-style-type: disc;
 }
 
-.specialties {
+.specialtiesList {
   display: inline-block;
   float: right;
   margin: 30px 30px 30px 10px;
   padding-top: 30px;
 }
 
-.specialties ul {
+.specialtiesList ul {
   display: inline-flex;
   list-style: none;
 }
 
-.specialties ul li {
+.specialtiesList ul li {
   margin: auto;
   width: 100%;
 }
 
-.specialties img {
+.specialtiesList img {
   margin: 20px;
   height: 100px;
   width: auto;
@@ -190,14 +194,14 @@ a:hover {
 
 /* Skills Container */
   .skillList {
-    display: block;
-    text-align: left;
-    width: 300px;
-    margin: 30px 20px 20px 100px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin: 30px 20px 20px 90px;
     list-style-type: none;
   }
 
-  .specialties {
+  .specialtiesList {
     display: block;
     float: none;
     text-align: center;
@@ -205,7 +209,7 @@ a:hover {
     padding-top: 30px;
   }
 
-  .specialties img {
+  .specialtiesList img {
     margin: 20px;
     height: 70px;
     width: auto;
