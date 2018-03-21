@@ -4,7 +4,7 @@ $(document).ready( function () {
 /* Project hover effect */
   $(".placeholder img").hover( function(e) {
 
-        $(this).animate({opacity: 1.0, height: "auto", width: "220px"}, 150);
+        $(this).animate({opacity: 1.0, height: "auto", width: "205px"}, 150);
 
     }, function() {
 
