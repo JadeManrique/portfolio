@@ -1,3 +1,21 @@
+$(document).ready( function () {
+
+
+/* Project hover effect */
+  $(".placeholder img").hover( function(e) {
+
+        $(this).animate({opacity: 1.0, height: "auto", width: "220px"}, 150);
+
+    }, function() {
+
+        $(this).animate({opacity: 0.5, height: "auto", width: "200px"}, 150);
+
+    });
+/* end */
+
+});
+
+/* Random Quote Generator */
 function quotes() {
   var quotes = [
     "TIP: Practice hotkeys. They are magical.",
@@ -13,3 +31,4 @@ function quotes() {
 
   document.getElementById("quoteGen").innerHTML = quotes[randomNumber];
 }
+/* end */

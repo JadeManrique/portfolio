@@ -14,6 +14,12 @@ h1 {
   color: #DB5E42;
 }
 
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
 p {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -31,16 +37,20 @@ img {
 }
 
 .right {
-  text-align: right;
+  text-align: center;
 }
 
 .center {
-  text-align:
+  text-align: center;
 }
 
 a:hover {
-  opacity: .5;
+  opacity: .8;
 }
+
+      .hover_img a { position:relative; }
+      .hover_img a span { position:absolute; display:none; z-index:99; }
+      .hover_img a:hover span { display:block; }
 
 /* Profile Container */
 .profileContainer {
@@ -100,14 +110,16 @@ a:hover {
 
 .skillList {
   display: inline-block;
-  width: 25%;
-  margin: 20px 20px 20px 80px;
-  list-style-type: disc;
+  text-align: center;
+  width: 50%;
+  margin: 30px 20px 20px 90px;
+  list-style-type: none;
 }
 
 .specialtiesList {
-  display: inline-block;
-  float: right;
+  display: block;
+  float: none;
+  text-align: center;
   margin: 30px 30px 30px 10px;
   padding-top: 30px;
 }
@@ -124,7 +136,7 @@ a:hover {
 
 .specialtiesList img {
   margin: 20px;
-  height: 100px;
+  height: 70px;
   width: auto;
 }
 
@@ -140,9 +152,12 @@ a:hover {
 
 .placeholder {
   display: inline-block;
-  height: auto;
-  width: 430px;
   margin: 15px;
+}
+
+.placeholder img {
+  width: 200px;
+  opacity: 0.8;
 }
 
 /* Contact Container */
